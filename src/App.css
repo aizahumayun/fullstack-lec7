@@ -3,6 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  /*width: fit-content;*/
+  background-color: cadetblue;
+
 }
 
 .logo {
@@ -30,6 +33,7 @@
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+    /* max-width: 550px; */
   }
 }
 
